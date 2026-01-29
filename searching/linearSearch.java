@@ -1,3 +1,4 @@
+package searching;
 public class linearSearch {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
@@ -5,7 +6,7 @@ public class linearSearch {
 
         int idx = linearS(arr, key);
         if(idx == -1){
-            System.out.println("Element not found");
+            System.out.println("Element not found"); 
         }else {
             System.out.println("Element found at index: " + idx);
         }
